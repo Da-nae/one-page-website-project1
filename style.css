@@ -292,8 +292,6 @@ a {
 
     #s4 {
         flex-direction: row;
-        align-content: space-between;
-        flex-wrap: wrap;
     }
 
     #s4-1, #s4-2 {
