@@ -1,0 +1,245 @@
+/* Mise en forme générale */
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: rgb(255, 252, 250);
+}
+
+
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 20px 0px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 10px 5px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 300;
+    color: black;
+    margin: 10px 0px 15px 0px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6 {
+    width: 300px;
+    border-radius: 30px;
+}
+
+#img1 {
+    height: 420px
+}
+
+#img2, #img3, #img4, #img5, #img6 {
+    height: 300px;
+
+}
+
+.bouton {
+    background-color: #ffb7c5;
+    border-radius: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Mise en forme des sections spécifiquement */
+/* Mise en page du header */
+
+    header {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #logo-header {
+        width: 50px;
+    }
+
+/* Mise en page section 1 : intro */
+
+    #s1 {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        align-items: center;
+        padding: 0px 15px;
+    }
+
+/* Mise en page section 2 : thème 1, bijoux */
+
+    #s2 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 10px;
+        background-color: #ffb7c5;
+        border-radius: 20px;
+        padding: 30px 20px;
+    }
+
+    #img2, #img3 {
+        margin: 10px;
+        align-self: center;
+    }
+
+    #h2-s2, #p-s2 {
+        text-align: right;
+        margin-right: 10px;
+    }
+
+/* Mise en page section 3 : blog */
+
+    #s3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 30px;
+        padding: 20px 0px;
+        text-align: center ;
+    }
+
+/* Mise en page section 4 : outro */
+
+    #s4 {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffb7c5;
+        padding: 30px 20px;
+        justify-content: space-between;
+    }
+
+    .p-s4 {
+        color: #fff7f9;
+    }
+
+    #s4-1 {
+        background-image: url(img7.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        align-items: flex-start;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    #s4-2 {
+        background-image: url(img8.jpg);
+        background-color: #e4a2af74;
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        align-items: flex-start;
+        padding: 10px 10px;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+/* Mise en page du footer */
+
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #liens-footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        font-size: 10px;
+        width: 200px;
+        color: black;
+    }
+
+    #liens-rs {
+        display: flex;
+        width: 200px;
+        justify-content: space-evenly;
+        margin : 10px 0px 20px 0px;
+    }
+
+    #logo-footer {
+        width: 100px;
+        margin: 50px 100px;
+    }
+
+    /* Pour Desktop */
+@media only screen and (min-width: 500px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin : 20px 50px;
+    }
+
+    #logo-header {
+        width: 80px;
+    }
+
+    #s1 {
+        flex-direction: row;
+        margin: 20px 50px;
+    }
+
+    #p-s1 {
+        margin: 0px 40px;
+    }
+
+    h1 {
+    font-size: 3em;
+    margin: 10px 50px;
+    }
+
+    #s2 {
+        flex-direction: row;
+        margin: 20px 50px;
+        align-items: center;
+    }
+
+    #s3 {
+    flex-direction: row;
+    margin: 50px;
+    align-items: center;
+    }
+
+    #s4 {
+        flex-direction: row;
+        align-content: space-between;
+    }
+
+    #s4-1, #s4-2 {
+        margin: 10px
+    }
+
+}
