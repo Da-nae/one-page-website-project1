@@ -292,11 +292,11 @@ a {
 
     #s4 {
         flex-direction: row;
-        max-width: 500px;
     }
 
     #s4-1, #s4-2 {
         margin: 10px
+        max-width: 50vw;
     }
 
 }
