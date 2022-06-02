@@ -1,6 +1,6 @@
 <h1>Hackeuse club final project</h1>
 
-<h2<Who did this project ?</h2>
+<h2>Who did this project ?</h2>
 Danaé Grosjean
 
 <h2>Why create this projet ?</h2>
