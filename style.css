@@ -292,6 +292,7 @@ a {
 
     #s4 {
         flex-direction: row;
+        max-with: 500px;
     }
 
     #s4-1, #s4-2 {
