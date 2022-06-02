@@ -2,8 +2,6 @@
 * {
     margin : 0;
     padding : 0;
-    box-sizing: border-box;
-
 }
 
 body {
@@ -119,9 +117,10 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20px 30px;
+        margin: 20px 10px;
         padding: 20px 0px;
         text-align: center ;
+        max-width: 330px;
     }
 
 /* Mise en page section 4 : outro */
@@ -193,8 +192,65 @@ a {
         margin: 50px 100px;
     }
 
-    /* Pour Desktop */
+/* Pour tablette */
+
 @media only screen and (min-width: 500px) {
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin : 20px 50px;
+    }
+
+    #logo-header {
+        width: 80px;
+    }
+
+    #s1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    #div-s1 {
+        margin: 20px;
+        max-width: 500px;
+    }
+
+    #s2 {
+        flex-direction: row;
+        margin: 20px 30px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px 50px;
+    }
+
+    #s3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #s4 {
+        flex-direction: row;
+        align-content: space-between;
+    }
+
+    #s4-1, #s4-2 {
+        margin: 10px
+    }
+
+}
+
+/* Pour Desktop */
+
+@media only screen and (min-width: 900px) {
 
     header {
         display: flex;
@@ -210,6 +266,7 @@ a {
     #s1 {
         flex-direction: row;
         margin: 20px 50px;
+        padding: 20px 0px;
     }
 
     #p-s1 {
@@ -228,14 +285,15 @@ a {
     }
 
     #s3 {
-    flex-direction: row;
-    margin: 50px;
-    align-items: center;
+        flex-direction: row;
+        margin: 50px;
+        align-items: center;
     }
 
     #s4 {
         flex-direction: row;
         align-content: space-between;
+        flex-wrap: wrap;
     }
 
     #s4-1, #s4-2 {
