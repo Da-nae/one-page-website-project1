@@ -1,8 +1,9 @@
 <h1>Hackeuse club final project</h1>
 
 <h2>Who did this project ?</h2>
-Danaé Grosjean
-With the help of Luna Muylkens (Github : https://github.com/LunashaGit) who created the Favicon animation
+Danaé Grosjean <br>
+With the help of Luna Muylkens (Github : https://github.com/LunashaGit) who created the Favicon animation <br>
+Based on a design by Tanya Leenders (Github : https://github.com/Tanya-Amber-L)
 
 <h2>Why create this projet ?</h2>
 It's a BeCode Project, which aims train our HTML, CSS, JS and GITHUB skills. It's the end project of the Hackeuse Club training.
