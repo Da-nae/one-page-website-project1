@@ -61,6 +61,10 @@ a {
     color: black;
 }
 
+#bouton-blog {
+    margin-right: 5px;
+}
+
 /* Mise en forme des sections spécifiquement */
 /* Mise en page du header */
 
@@ -111,7 +115,6 @@ a {
     #s3 {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .blog {
@@ -296,8 +299,7 @@ a {
     }
 
     #s4-1, #s4-2 {
-        margin: 10px;
-        max-width: 50vw;
+        margin: 10px
     }
 
 }
