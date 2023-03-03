@@ -1,4 +1,5 @@
 <h1>Hackeuse club final project</h1>
+<a href="https://da-nae.github.io/one-page-website-project1/">Click here</a> to see the final project.
 
 <h2>Who did this project ?</h2>
 Danaé Grosjean <br>
